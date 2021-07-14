@@ -16,4 +16,4 @@ git log查看日志
 
 git log --pretty=oneline简略log提交信息
 版本回退
-
+git reset --head HEAD~2 使用head指针找到提交日志版本
