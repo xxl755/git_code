@@ -1,6 +1,11 @@
 创建版本库并提交
 
-#git status 显示 no commits yet
-包含git add 命令提示
+#git status 显示暂存区状态 no commits yet
+包含git add 命令提示，希望提交文件到暂存区
 #git add “file”后 git status显示该文件为绿色 （文件进入暂存区）
-#git commit“本次提交注释”
+#git commit -m “本次提交注释” 提交到git本地仓库中
+git log查看日志
+
+修改保存后，git status显示文件为红色 modified：
+因为修改后使用git add 。就可以提交当前区域所有修改文件
+
