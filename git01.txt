@@ -11,3 +11,9 @@ git log查看日志
 
 
 可以用git reset HEAD file撤销通过git add 上传到缓存区的文件
+
+使用git commit -am file 省略中间提交暂存区直接放入本地库a是add缩写
+
+git log --pretty=oneline简略log提交信息
+版本回退
+
