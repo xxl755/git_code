@@ -16,7 +16,9 @@ git log查看日志
 
 git log --pretty=oneline简略log提交信息
 版本回退
-git reset --hard HEAD~2 使用head指针找到提交日志版本
+git reset --hard HEAD~2 使用head指针找到提交日志版本，后退两个版本
 
 版本回迁
 git reset --hard xxxxxxx（git log --pretty=oneline 得到的版本号）
+
+git reflog查看所有版本日志
