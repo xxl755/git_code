@@ -22,3 +22,5 @@ git reset --hard HEAD~2 使用head指针找到提交日志版本，后退两个�
 git reset --hard xxxxxxx（git log --pretty=oneline 得到的版本号）
 
 git reflog查看所有版本日志
+
+git ls-files查看git仓库的文件
