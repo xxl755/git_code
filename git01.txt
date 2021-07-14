@@ -1,0 +1,6 @@
+创建版本库并提交
+
+#git status 显示 no commits yet
+包含git add 命令提示
+#git add “file”后 git status显示该文件为绿色 （文件进入暂存区）
+#git commit“本次提交注释”
