@@ -24,3 +24,6 @@ git reset --hard xxxxxxx（git log --pretty=oneline 得到的版本号）
 git reflog查看所有版本日志
 
 git ls-files查看git仓库的文件
+
+文件夹删除的文件在git仓库中可能存在，git checkout可以找到，使用checkout加file恢复，
+使用git add 。确定该文件不在提交给缓存区，使其删除掉
