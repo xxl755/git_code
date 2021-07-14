@@ -9,3 +9,5 @@ git log查看日志
 修改保存后，git status显示文件为红色 modified：
 因为修改后使用git add 。就可以提交当前区域所有修改文件
 
+
+可以用git reset HEAD file撤销通过git add 上传到缓存区的文件
