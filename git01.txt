@@ -33,7 +33,14 @@ ssh下载 ssh-keygen -t rsa -C“邮箱”
 Your public key has been saved in /home/xxl/.ssh/id_rsa.pub.复制秘钥给github的setting中
 ssh -T git@github.com来测试
 
+
+ssh后远程仓库绑定，github建立仓库
 本地库绑定连接远程仓库
 git remote add origin git@xxxxxx  仓库名origin
 git push -u origin master将本地库推到绑定的origin库
+
+ssh后远程仓库修改
+
+git add 。提交给缓存
+git commit -m 'xx'缓存直接推送给远程
 
